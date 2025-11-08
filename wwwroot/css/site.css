@@ -1,0 +1,100 @@
+html {
+  font-size: 14px;
+}
+.container-fluid {
+  background-color: #fe8c00;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+.container-fluid a {
+  text-align: center;
+}
+footer {
+  background-color: rgb(194, 194, 194);
+  text-align: center;
+  
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* styling for movie page */
+input[type="password"],
+select,
+textarea {
+    padding: 8px 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+/* hover/focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* submit button */
+input[type="submit"],
+button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* screens with max size of 600px */
+@media (max-width: 600px) {
+  body {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #movie-list-links {
+    margin-left: -30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      white-space: normal;
+  }
+
+  #movie-list-links a {
+      display: block;
+      margin: 4px 0;
+      font-size: 1rem;
+  }
+
+  footer.footer {
+    font-size: 0.85rem; 
+    padding: 12px 0;
+  }
+}
