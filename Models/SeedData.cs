@@ -51,6 +51,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "The Divine Gifts",
+                    ReleaseDate = DateTime.Parse("1000-1-1"),
+                    Genre = "Africa",
+                    Rating = "R",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "The Move",
+                    ReleaseDate = DateTime.Parse("2000-4-25"),
+                    Genre = "Africa",
+                    Rating = "R",
+                    Price = 7.99M
+                },
+                new Movie
+                {
+                    Title = "The Pearl",
+                    ReleaseDate = DateTime.Parse("1909-2-1"),
+                    Genre = "Western",
+                    Rating = "R",
+                    Price = 1.99M
                 }
             );
             context.SaveChanges();

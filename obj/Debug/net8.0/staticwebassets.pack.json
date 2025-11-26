@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MvcMovie.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\admin\\Desktop\\.NET\\wk2\\MvcMovie\\wwwroot\\css\\.gitignore",
+      "PackagePath": "staticwebassets\\css\\.gitignore"
+    },
+    {
       "Id": "C:\\Users\\admin\\Desktop\\.NET\\wk2\\MvcMovie\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

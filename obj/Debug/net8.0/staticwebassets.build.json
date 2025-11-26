@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HXklIkVLdMPZ40cWKQp3D634AfTQ3tKdckezmArFQbs=",
+  "Hash": "aU4X+SEex5ScwFBd9+COAGgEyhnRKBTUnOOHCHGpziw=",
   "Source": "MvcMovie",
   "BasePath": "_content/MvcMovie",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\admin\\Desktop\\.NET\\wk2\\MvcMovie\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MvcMovie.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\Desktop\\.NET\\wk2\\MvcMovie\\wwwroot\\css\\.gitignore",
+      "SourceId": "MvcMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\.NET\\wk2\\MvcMovie\\wwwroot\\",
+      "BasePath": "_content/MvcMovie",
+      "RelativePath": "css/.gitignore",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\.gitignore"
     },
     {
       "Identity": "C:\\Users\\admin\\Desktop\\.NET\\wk2\\MvcMovie\\wwwroot\\css\\site.css",
